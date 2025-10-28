@@ -1,0 +1,57 @@
+# Dependabot configuration for QE Guild repository
+# Automatically creates PRs to update dependencies
+
+version: 2
+updates:
+  # GitHub Actions workflow dependencies
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    reviewers:
+      - "edmond-chhung"
+      - "guru-bangalore-venkatesh"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+
+  # Future: Add package ecosystems as templates are created
+  # Uncomment and configure as needed when templates are implemented
+
+  # # npm dependencies (for TypeScript/JavaScript templates)
+  # - package-ecosystem: "npm"
+  #   directory: "/templates/ui-automation/playwright/typescript"
+  #   schedule:
+  #     interval: "weekly"
+  #   labels:
+  #     - "dependencies"
+  #     - "npm"
+  #   reviewers:
+  #     - "edmond-chhung"
+
+  # # Maven dependencies (for Java templates)
+  # - package-ecosystem: "maven"
+  #   directory: "/templates/ui-automation/selenium/java-junit"
+  #   schedule:
+  #     interval: "weekly"
+  #   labels:
+  #     - "dependencies"
+  #     - "maven"
+  #   reviewers:
+  #     - "guru-bangalore-venkatesh"
+
+  # # pip dependencies (for Python templates)
+  # - package-ecosystem: "pip"
+  #   directory: "/templates/ui-automation/playwright/python"
+  #   schedule:
+  #     interval: "weekly"
+  #   labels:
+  #     - "dependencies"
+  #     - "pip"
+  #   reviewers:
+  #     - "edmond-chhung"

@@ -170,6 +170,59 @@ The QE Guild repository has undergone a major restructure to improve:
   - Unreleased section
   - Links to roadmap and decision log
 
+### 8. Repository Infrastructure (Industry Standards)
+- **File:** `.gitignore`
+  - Comprehensive ignore patterns for credentials, IDE files, dependencies, build outputs
+  - Prevents security issues from committed secrets
+
+- **File:** `.editorconfig`
+  - Consistent formatting across all editors
+  - Language-specific indent rules
+
+- **File:** `SECURITY.md`
+  - Responsible disclosure process
+  - Security best practices for contributors
+  - Template security checklist
+
+- **File:** `CONTRIBUTORS.md`
+  - Community recognition
+  - Contribution types and categories
+
+- **File:** `package.json`
+  - Development tooling infrastructure
+  - Linting, formatting, spell checking scripts
+  - Pre-commit hook support
+
+### 9. CI/CD Automation
+- **Workflow:** `.github/workflows/link-checker.yml`
+  - Automated link validation
+  - Weekly schedule + PR checks
+  - Auto-creates issues for broken links
+
+- **Workflow:** `.github/workflows/markdown-lint.yml`
+  - Markdown linting on PRs
+  - Enforces documentation standards
+
+- **File:** `.github/dependabot.yml`
+  - Automatic dependency updates
+  - GitHub Actions version management
+
+### 10. Code Quality Configuration
+- **File:** `.markdownlint.json`
+  - Markdown style rules
+  - Consistent documentation formatting
+
+- **File:** `.prettierrc.json`
+  - Code formatting standards
+  - Markdown, YAML, JSON support
+
+### 11. Standards Documentation
+- **File:** `docs/standards/testing-principles.md`
+  - 12 core testing principles
+  - Test pyramid guidance
+  - Security, accessibility, performance testing
+  - Shift-left testing approach
+
 ---
 
 ## What Was Fixed

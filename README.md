@@ -2,6 +2,10 @@
 
 # QE Guild - Quality Engineering Standards & Resources
 
+[![Markdown Links](https://github.com/UKHomeOffice/qe-guild/actions/workflows/link-checker.yml/badge.svg)](https://github.com/UKHomeOffice/qe-guild/actions/workflows/link-checker.yml)
+[![Markdown Lint](https://github.com/UKHomeOffice/qe-guild/actions/workflows/markdown-lint.yml/badge.svg)](https://github.com/UKHomeOffice/qe-guild/actions/workflows/markdown-lint.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
+
 The purpose of this repository is to:
 - Help Quality Engineering (QE) team members become familiar with tools and templates endorsed by the Home Office (HO) QE Guild
 - Provide production-ready boilerplate templates for commonly used automation frameworks
@@ -80,7 +84,7 @@ See [Decision Trees](/docs/getting-started/decision-trees.md) for context-specif
 - [Learning Paths](/docs/training/learning-paths/)
 
 ### Standards & Patterns
-- [Testing Principles](/docs/standards/testing-principles.md)
+- [Testing Principles](/docs/standards/testing-principles.md) ✨ **NEW**
 - [Code Quality Standards](/docs/standards/code-quality-standards.md)
 - [Page Object Model](/docs/design-patterns/page-object-model.md)
 - [Screenplay Pattern](/docs/design-patterns/screenplay-pattern.md)
@@ -122,6 +126,10 @@ Each template is maintained by designated owners (see [CODEOWNERS](/.github/CODE
 - Guru Bangalore Venkatesh
 
 **Email:** qe-guild-leads@homeoffice.gov.uk
+
+**Security Issues:** See [SECURITY.md](SECURITY.md) for responsible disclosure
+
+**Contributors:** See [CONTRIBUTORS.md](CONTRIBUTORS.md) for recognition
 
 ## Metrics & Adoption
 

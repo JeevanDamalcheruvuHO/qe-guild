@@ -1,0 +1,56 @@
+{
+  "name": "qe-guild",
+  "version": "1.0.0",
+  "description": "Quality Engineering Standards & Resources for Home Office",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UKHomeOffice/qe-guild.git"
+  },
+  "keywords": [
+    "quality-engineering",
+    "test-automation",
+    "playwright",
+    "selenium",
+    "api-testing",
+    "home-office",
+    "testing-templates",
+    "qa",
+    "testing-standards"
+  ],
+  "author": "Home Office QE Guild",
+  "license": "MIT",
+  "scripts": {
+    "lint:md": "markdownlint '**/*.md' --ignore node_modules",
+    "lint:md:fix": "markdownlint '**/*.md' --ignore node_modules --fix",
+    "check:links": "markdown-link-check README.md",
+    "check:links:all": "find . -name '*.md' -not -path './node_modules/*' -exec markdown-link-check {} \\;",
+    "format:check": "prettier --check '**/*.{md,yml,yaml,json}'",
+    "format:write": "prettier --write '**/*.{md,yml,yaml,json}'",
+    "spellcheck": "cspell '**/*.md' --no-progress",
+    "validate": "npm run lint:md && npm run format:check && npm run spellcheck",
+    "prepare": "husky install || true"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "cspell": "^8.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.1.0",
+    "markdown-link-check": "^3.12.1",
+    "markdownlint-cli": "^0.38.0",
+    "prettier": "^3.1.0"
+  },
+  "lint-staged": {
+    "*.md": [
+      "markdownlint --fix",
+      "prettier --write"
+    ],
+    "*.{yml,yaml,json}": [
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
