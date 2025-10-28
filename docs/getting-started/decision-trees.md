@@ -21,7 +21,7 @@ Welcome to the QE Guild's decision tree hub. These interactive flowcharts help y
 3. **Get a recommendation** - Receive a tool/framework recommendation with rationale
 4. **Review the details** - Check the linked tool comparison documents for deeper analysis
 
-## 🔑 Decision Factors
+## Decision Factors
 
 Our recommendations consider:
 
@@ -32,7 +32,7 @@ Our recommendations consider:
 - **Support and maintenance** - Community activity, Microsoft support, long-term viability
 - **Security and compliance** - HO security requirements, data handling, air-gapped environments
 
-## 🚦 Recommendation Levels
+## Recommendation Levels
 
 In our decision trees, you'll see colour-coded recommendations:
 

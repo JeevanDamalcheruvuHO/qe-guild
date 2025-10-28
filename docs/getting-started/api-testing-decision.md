@@ -5,7 +5,7 @@ Choose the right API testing framework based on your tech stack, reporting needs
 ## Decision Flowchart
 
 ```mermaid
-flowchart TD
+graph TD
     Start([API Testing Needed]) --> Existing{Existing<br/>Java stack?}
     
     Existing -->|Yes, Java backend| JavaBackend{Need detailed<br/>request/response<br/>tracking?}
@@ -60,8 +60,8 @@ flowchart TD
     style KarateDSL fill:#87CEEB
     style BrunoCollab fill:#90EE90
     
-    %% Add warning for Postman
-    NewProject -.->| AVOID| Postman[Postman<br/>Account sync issues<br/>Not HO approved]
+    %% Warning for Postman
+    NewProject -.->|AVOID| Postman[Postman<br/>Account sync issues<br/>Not HO approved]
     style Postman fill:#FF6B6B,stroke:#CC0000,stroke-width:3px
 ```
 
