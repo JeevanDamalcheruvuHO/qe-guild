@@ -4,6 +4,8 @@ Choose the right UI automation framework based on your project context, team ski
 
 ## Decision Flowchart
 
+> **Note:** To view this flowchart in VS Code, install the "Markdown Preview Mermaid Support" extension. The diagram will render correctly on GitHub.
+
 ```mermaid
 graph TD
     Start([UI Testing Needed]) --> Legacy{Existing large<br/>Java framework?}

@@ -2,6 +2,8 @@
 
 Welcome to the QE Guild's decision tree hub. These interactive flowcharts help you choose the right testing tools and frameworks based on your project's specific context.
 
+> **Note:** Decision tree flowcharts use Mermaid diagrams. To view them in VS Code, install the "Markdown Preview Mermaid Support" extension. They render correctly on GitHub by default.
+
 ## Quick Navigation
 
 ### By Testing Type

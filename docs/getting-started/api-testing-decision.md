@@ -4,6 +4,8 @@ Choose the right API testing framework based on your tech stack, reporting needs
 
 ## Decision Flowchart
 
+> **Note:** To view this flowchart in VS Code, install the "Markdown Preview Mermaid Support" extension. The diagram will render correctly on GitHub.
+
 ```mermaid
 graph TD
     Start([API Testing Needed]) --> Existing{Existing<br/>Java stack?}
