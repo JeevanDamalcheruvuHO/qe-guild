@@ -1,0 +1,101 @@
+name: 🐛 Bug Report
+description: Report a bug in a template or documentation
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+        Thanks for taking the time to report a bug!
+
+  - type: dropdown
+    id: bug-category
+    attributes:
+      label: Bug Category
+      description: Where is the bug?
+      options:
+        - Template Code
+        - Documentation
+        - CI/CD Workflow
+        - Configuration
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: affected-template
+    attributes:
+      label: Affected Template/Document
+      description: Which template or document has the bug?
+      placeholder: "e.g., templates/ui-automation/playwright/typescript/"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Describe the bug clearly and concisely
+      placeholder: "When I try to... the expected behavior is... but instead..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this bug?
+      placeholder: |
+        1. Clone the template
+        2. Run command '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happens?
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Provide environment details
+      placeholder: |
+        - OS: [e.g., macOS 13, Windows 11, Ubuntu 22.04]
+        - Node.js version: [e.g., 18.17.0]
+        - Package manager: [e.g., npm 9.6.7]
+        - Browser: [e.g., Chrome 115]
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error Logs
+      description: Include any relevant error messages or logs
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context, screenshots, or information
+    validations:
+      required: false

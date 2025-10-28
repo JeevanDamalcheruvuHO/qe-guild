@@ -1,0 +1,28 @@
+# CODEOWNERS - Defines who is responsible for reviewing PRs for different parts of the repository
+# For more information, see: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global owners - responsible for repository-wide changes
+* @edmond-chhung @guru-bangalore-venkatesh
+
+# Documentation
+/docs/ @edmond-chhung @guru-bangalore-venkatesh
+
+# Templates - specific owners per framework
+/templates/ui-automation/playwright/ @edmond-chhung
+/templates/ui-automation/selenium/ @guru-bangalore-venkatesh
+/templates/api-automation/bruno/ @edmond-chhung
+/templates/api-automation/rest-assured/ @guru-bangalore-venkatesh
+
+# Tooling strategy documents
+/docs/tooling/ @edmond-chhung @guru-bangalore-venkatesh
+
+# Governance and standards
+/docs/governance/ @edmond-chhung @guru-bangalore-venkatesh
+/docs/standards/ @edmond-chhung @guru-bangalore-venkatesh
+
+# CI/CD workflows
+/.github/workflows/ @edmond-chhung
+
+# Examples and training materials
+/examples/ @edmond-chhung @guru-bangalore-venkatesh
+/docs/training/ @edmond-chhung @guru-bangalore-venkatesh

@@ -1,0 +1,154 @@
+name: 📦 Template Submission
+description: Submit a new automation framework template to the QE Guild
+title: "[TEMPLATE] "
+labels: ["template", "new-submission"]
+assignees:
+  - edmond-chhung
+  - guru-bangalore-venkatesh
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Submit Your Template
+        Thank you for contributing a template to the QE Guild! Please provide the following information.
+
+  - type: input
+    id: template-name
+    attributes:
+      label: Template Name
+      description: What is the name of your template?
+      placeholder: "e.g., Playwright TypeScript E2E Template"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: template-category
+    attributes:
+      label: Template Category
+      description: Which category does this template belong to?
+      options:
+        - UI Automation
+        - API Automation
+        - Performance Testing
+        - Mobile Automation
+        - Accessibility Testing
+        - BDD Framework
+        - Integration/Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: technology-stack
+    attributes:
+      label: Primary Technology/Framework
+      description: What is the main technology used?
+      options:
+        - Playwright
+        - Selenium
+        - Cypress
+        - Rest Assured
+        - Bruno
+        - Karate
+        - JMeter
+        - k6
+        - Gatling
+        - Appium
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: programming-language
+    attributes:
+      label: Programming Language
+      description: Which language is this template written in?
+      options:
+        - TypeScript
+        - JavaScript
+        - Java
+        - Python
+        - C#
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Template Description
+      description: Describe what this template does and when it should be used
+      placeholder: "This template provides..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: features
+    attributes:
+      label: Key Features
+      description: List the main features of this template
+      placeholder: |
+        - Feature 1
+        - Feature 2
+        - Feature 3
+    validations:
+      required: true
+
+  - type: input
+    id: repository-link
+    attributes:
+      label: Repository Link
+      description: Link to your template repository (if external)
+      placeholder: "https://github.com/username/template-repo"
+    validations:
+      required: false
+
+  - type: textarea
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: What needs to be installed to use this template?
+      placeholder: |
+        - Node.js 18+
+        - npm or yarn
+        - etc.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: documentation
+    attributes:
+      label: Documentation Checklist
+      description: Ensure your template includes the following
+      options:
+        - label: README.md with setup instructions
+          required: true
+        - label: Example tests demonstrating usage
+          required: true
+        - label: Configuration files with comments
+          required: true
+        - label: CI/CD workflow example
+          required: false
+        - label: Troubleshooting guide
+          required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Submission Agreement
+      description: By submitting this template, you agree to the following
+      options:
+        - label: I will maintain this template and respond to issues
+          required: true
+        - label: This template follows QE Guild standards and conventions
+          required: true
+        - label: This template is compatible with the Home Office security requirements
+          required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other information about your template
+    validations:
+      required: false

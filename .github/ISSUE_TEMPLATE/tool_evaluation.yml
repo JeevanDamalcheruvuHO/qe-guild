@@ -1,0 +1,159 @@
+name: 🔧 Tool Evaluation Request
+description: Request evaluation of a new testing tool or framework
+title: "[TOOL EVAL] "
+labels: ["tool-evaluation", "needs-review"]
+assignees:
+  - edmond-chhung
+  - guru-bangalore-venkatesh
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Tool Evaluation Request
+        Propose a new tool for QE Guild evaluation and potential recommendation.
+
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool Name
+      description: What is the name of the tool?
+      placeholder: "e.g., Playwright, k6, etc."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tool-category
+    attributes:
+      label: Tool Category
+      description: What type of testing does this tool support?
+      options:
+        - UI Automation
+        - API Automation
+        - Performance Testing
+        - Accessibility Testing
+        - Mobile Testing
+        - Security Testing
+        - Infrastructure Testing
+        - Code Quality/Linting
+        - CI/CD
+        - Observability/Reporting
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-problem
+    attributes:
+      label: Problem Statement
+      description: What problem does this tool solve that current tools don't?
+      placeholder: "Currently we struggle with... this tool addresses this by..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: tool-overview
+    attributes:
+      label: Tool Overview
+      description: Provide a brief overview of the tool
+      placeholder: |
+        - Official website: 
+        - Documentation:
+        - Version:
+        - License:
+    validations:
+      required: true
+
+  - type: dropdown
+    id: license-type
+    attributes:
+      label: License Type
+      description: Is this tool open source or commercial?
+      options:
+        - Open Source (Free)
+        - Open Source with Paid Features
+        - Commercial/Paid
+        - Freemium
+    validations:
+      required: true
+
+  - type: textarea
+    id: comparison
+    attributes:
+      label: Comparison with Existing Tools
+      description: How does this compare to currently recommended tools?
+      placeholder: |
+        | Feature | Current Tool | Proposed Tool |
+        |---------|--------------|---------------|
+        |         |              |               |
+    validations:
+      required: true
+
+  - type: textarea
+    id: pros
+    attributes:
+      label: Pros
+      description: What are the advantages of this tool?
+      placeholder: |
+        - Pro 1
+        - Pro 2
+    validations:
+      required: true
+
+  - type: textarea
+    id: cons
+    attributes:
+      label: Cons
+      description: What are the limitations or drawbacks?
+      placeholder: |
+        - Con 1
+        - Con 2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: community-support
+    attributes:
+      label: Community Support
+      description: How active is the community?
+      options:
+        - Very Active (Daily updates, large community)
+        - Active (Regular updates, growing community)
+        - Moderate (Occasional updates, small community)
+        - Limited (Minimal updates, very small community)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: compatibility
+    attributes:
+      label: Home Office Compatibility
+      description: Check all that apply
+      options:
+        - label: Compatible with HO security requirements
+        - label: No cloud data sync/storage required
+        - label: Can run in air-gapped environments
+        - label: Supports SSO/Enterprise authentication
+        - label: Has enterprise support available
+
+  - type: textarea
+    id: poc-results
+    attributes:
+      label: Proof of Concept Results (Optional)
+      description: If you've tested this tool, share your findings
+      placeholder: "We ran a 2-week POC and found..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Your Recommendation
+      description: What do you recommend the Guild do with this tool?
+      placeholder: |
+        - [ ] Invest (Adopt as standard)
+        - [ ] Trial (Pilot on select projects)
+        - [ ] Assess (Need more evaluation)
+        - [ ] Hold (Not ready yet)
+    validations:
+      required: true
