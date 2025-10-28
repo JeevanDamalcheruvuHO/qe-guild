@@ -164,7 +164,7 @@ Templates must demonstrate:
 - Follow language conventions (camelCase, snake_case, etc.)
 - Avoid abbreviations
 
-### Code Organization
+### Code Organisation
 - Logical file structure
 - Separation of concerns
 - DRY (Don't Repeat Yourself)
@@ -197,7 +197,7 @@ Templates must:
 
 ### Dependency Selection
 - Use well-maintained packages
-- Minimize dependency count
+- Minimise dependency count
 - Justify each dependency
 - Keep dependencies updated
 
@@ -259,7 +259,7 @@ Before submitting a new template:
 ## Common Mistakes to Avoid
 
 1. **Too Generic** - Templates should be opinionated and demonstrate best practices
-2. **Too Specific** - Avoid organisation-specific details that don't generalize
+2. **Too Specific** - Avoid organisation-specific details that don't generalise
 3. **Incomplete Documentation** - Every step must be documented
 4. **Untested Instructions** - Verify setup works from scratch
 5. **Outdated Dependencies** - Keep dependencies current
@@ -281,7 +281,7 @@ Before submitting a new template:
 ### Performance Testing
 - Must include load profile examples
 - Demonstrate metrics collection
-- Show how to analyze results
+- Show how to analyse results
 
 ### Mobile Automation
 - Must include platform-specific examples

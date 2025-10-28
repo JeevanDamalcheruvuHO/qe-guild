@@ -102,5 +102,5 @@ template/
 
 * All boilerplates follow the same top-level and internal structure.  
 * Each framework and language implementation that includes a `README.md`.  
-* CI/CD, docs, and scripts are organized and standardized.  
+* CI/CD, docs, and scripts are organised and standardised.  
 * Documentation lives under `/docs/` under each boilerplate.  

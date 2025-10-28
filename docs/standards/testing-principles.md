@@ -118,7 +118,7 @@ npm run test:unit && npm run lint
   - Parallel execution
   - Test data seeding (not creation in tests)
   - Mock external dependencies
-  - Optimize wait strategies
+  - Optimise wait strategies
 
 ### Reliable
 - **Target:** <1% flakiness rate

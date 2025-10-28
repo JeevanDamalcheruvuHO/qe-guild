@@ -12,7 +12,7 @@ The tool approval process ensures that:
 
 ## 🚦 Tool Status Levels
 
-Tools in the QE Guild are categorized using a modified [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar) approach:
+Tools in the QE Guild are categorised using a modified [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar) approach:
 
 ### **Invest** (Recommended)
 - **Description:** Approved for broad adoption across teams
@@ -163,7 +163,7 @@ flowchart TD
 - Research tool capabilities
 - Review documentation
 - Check community/support
-- Analyze costs
+- Analyse costs
 - Determine if POC is needed
 
 **Outcomes:**

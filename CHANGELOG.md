@@ -8,10 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Complete repository restructure with improved organization
+- Complete repository restructure with improved organisation
 - Decision tree framework for tool selection
 - GitHub issue templates for template submissions, tool evaluations, bug reports, and feature requests
-- Pull request template for standardized contributions
+- Pull request template for standardised contributions
 - CODEOWNERS file for automated review assignments
 - Comprehensive `.gitignore` for security and cleanliness
 - `.editorconfig` for consistent code formatting
@@ -81,7 +81,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 New features, templates, documentation, or tools added to the repository.
 
 ### Changed
-Changes to existing functionality, documentation updates, or reorganization.
+Changes to existing functionality, documentation updates, or reorganisation.
 
 ### Deprecated
 Features or tools that are being phased out.

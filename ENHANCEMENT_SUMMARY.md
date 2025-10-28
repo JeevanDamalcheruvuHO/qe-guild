@@ -11,7 +11,7 @@ This document summarizes all improvements made to the QE Guild repository on the
 ## Overview
 
 The QE Guild repository has undergone a major restructure to improve:
-- **Organization** - Clear separation of concerns with logical hierarchy
+- **Organisation** - Clear separation of concerns with logical hierarchy
 - **Discoverability** - Easy navigation for new and existing members
 - **Governance** - Transparent decision-making and tool approval processes
 - **Contribution** - Streamlined workflows with GitHub infrastructure
@@ -352,7 +352,7 @@ qe-guild/
 -  Interactive flowcharts for tool selection
 -  Context-aware recommendations
 -  Clear decision factors and rationale
--  Color-coded recommendation levels
+-  Colour-coded recommendation levels
 
 ### 2. Transparent Governance
 -  Documented tool approval process
