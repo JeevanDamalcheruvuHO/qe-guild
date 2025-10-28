@@ -2,7 +2,7 @@
 
 Welcome to the QE Guild template library! This directory contains production-ready boilerplate frameworks for common testing scenarios.
 
-## 🎯 What are Templates?
+## What are Templates?
 
 Templates are complete, runnable automation frameworks that:
 - **Work out of the box** - Clone and run immediately
@@ -11,12 +11,12 @@ Templates are complete, runnable automation frameworks that:
 - **Are fully documented** - Setup, usage, and troubleshooting guides
 - **Are maintained** - Regularly updated by designated owners
 
-## 📂 Available Templates
+## Available Templates
 
 ### UI Automation
 
 #### Playwright
-- **[TypeScript](/templates/ui-automation/playwright/typescript/)** ✅ Recommended
+- **[TypeScript](/templates/ui-automation/playwright/typescript/)**  Recommended
   - Modern, fast, Microsoft-supported
   - Best for PowerApps/Dynamics
   - Auto-wait, trace viewer, component testing
@@ -26,7 +26,7 @@ Templates are complete, runnable automation frameworks that:
   - Good for data-heavy testing
   - Slightly slower updates than TypeScript
   
-- **[Java](/templates/ui-automation/playwright/java/)** ⚠️ Use with caution
+- **[Java](/templates/ui-automation/playwright/java/)**  Use with caution
   - Limited community support
   - Consider Selenium for Java projects
 
@@ -41,12 +41,12 @@ Templates are complete, runnable automation frameworks that:
 
 ### API Automation
 
-- **[Bruno](/templates/api-automation/bruno/)** ✅ HO Approved
+- **[Bruno](/templates/api-automation/bruno/)**  HO Approved
   - Manual + automation
   - No cloud sync (security compliant)
   - Git-friendly collections
   
-- **[Rest Assured](/templates/api-automation/rest-assured/)** ✅ Best for Java
+- **[Rest Assured](/templates/api-automation/rest-assured/)**  Best for Java
   - Excellent request/response tracking
   - Fluent Java DSL
   - Great reporting
@@ -84,7 +84,7 @@ Templates are complete, runnable automation frameworks that:
 - **[Cucumber + JavaScript](/templates/bdd-frameworks/cucumber-js/)**
 - **[Behave + Python](/templates/bdd-frameworks/behave-python/)**
 
-## 🚀 How to Use a Template
+## How to Use a Template
 
 ### 1. Choose the Right Template
 
@@ -121,7 +121,7 @@ Each template includes a comprehensive README with:
 - Configure environments
 - Set up CI/CD
 
-## 📝 Template Structure
+## Template Structure
 
 Every template follows a consistent structure:
 
@@ -142,37 +142,37 @@ template-name/
 
 See [Template Guidelines](/templates/TEMPLATE_GUIDELINES.md) for complete structure details.
 
-## ✅ What's Included
+## What's Included
 
 Every template includes:
 
-✅ **Working Examples**
+ **Working Examples**
 - Basic example test
 - Real-world scenario
 - Advanced pattern demonstration
 
-✅ **Complete Documentation**
+ **Complete Documentation**
 - Setup instructions
 - Usage guide
 - Configuration options
 - Troubleshooting
 
-✅ **CI/CD Integration**
+ **CI/CD Integration**
 - GitHub Actions workflow
 - Example for other CI platforms
 
-✅ **Best Practices**
+ **Best Practices**
 - Recommended patterns
-- Code organization
+- Code organisation
 - Error handling
 - Logging
 
-✅ **Development Tools**
+ **Development Tools**
 - Linting configuration
 - Formatting setup
 - Pre-commit hooks (where applicable)
 
-## 🎓 Learning from Templates
+## Learning from Templates
 
 Templates are excellent learning resources:
 
@@ -181,7 +181,7 @@ Templates are excellent learning resources:
 3. **Modify and experiment** - Learn by doing
 4. **Compare templates** - See different approaches
 
-## 🤝 Contributing Templates
+## Contributing Templates
 
 Want to contribute a template? Great!
 
@@ -212,7 +212,7 @@ Want to contribute a template? Great!
 
 See [CONTRIBUTING.md](/CONTRIBUTING.md) for complete guidelines.
 
-## 🔧 Template Maintenance
+## Template Maintenance
 
 ### Ownership
 
@@ -237,16 +237,16 @@ Templates follow semantic versioning:
 - **Minor** (0.1.0) - New features, backward compatible
 - **Patch** (0.0.1) - Bug fixes
 
-## ⚠️ Template Status
+## Template Status
 
 Templates may have different status levels:
 
-- ✅ **Production Ready** - Fully tested and maintained
-- 🚧 **Beta** - Functional but may have rough edges
-- 📝 **Placeholder** - Planned but not yet created
-- 🗃️ **Deprecated** - No longer recommended
+-  **Production Ready** - Fully tested and maintained
+-  **Beta** - Functional but may have rough edges
+-  **Placeholder** - Planned but not yet created
+-  **Deprecated** - No longer recommended
 
-## 🐛 Reporting Issues
+## Reporting Issues
 
 Found a problem with a template?
 
@@ -255,7 +255,7 @@ Found a problem with a template?
 3. Submit [Bug Report](/.github/ISSUE_TEMPLATE/bug_report.yml)
 4. Contact template owner (see CODEOWNERS)
 
-## 💡 Requesting Features
+## Requesting Features
 
 Want a new template or feature?
 
@@ -264,11 +264,11 @@ Want a new template or feature?
 3. Propose a solution
 4. Consider contributing!
 
-## 📊 Template Usage
+## Template Usage
 
 See [Metrics](/metrics/) for template usage statistics and adoption rates.
 
-## 📞 Help and Support
+## Help and Support
 
 **Template Questions:**
 - Check template's README and TROUBLESHOOTING
@@ -280,7 +280,7 @@ See [Metrics](/metrics/) for template usage statistics and adoption rates.
 - Guru Bangalore Venkatesh
 - qe-guild-leads@homeoffice.gov.uk
 
-## 📚 Related Documentation
+## Related Documentation
 
 - [Template Guidelines](/templates/TEMPLATE_GUIDELINES.md) - For contributors
 - [Decision Trees](/docs/getting-started/decision-trees.md) - Choose the right template

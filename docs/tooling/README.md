@@ -2,7 +2,7 @@
 
 This section provides comprehensive tool comparisons, evaluation criteria, and implementation guides for quality engineering tools across different testing domains.
 
-## 📂 Categories
+## Categories
 
 ### [UI Automation](/docs/tooling/ui-automation/)
 Browser-based testing frameworks
@@ -56,7 +56,7 @@ Infrastructure testing and validation
 - Container testing
 - Cloud resource validation
 
-## 🎯 Tool Selection Philosophy
+## Tool Selection Philosophy
 
 Our tool recommendations are based on:
 
@@ -68,32 +68,32 @@ Our tool recommendations are based on:
 
 ## 🚦 Recommendation Levels
 
-- **✅ Recommended** - Invest and adopt as standard
-- **🔵 Acceptable** - Valid for specific contexts (e.g., legacy)
-- **⚠️ Caution** - Use with awareness of limitations
-- **❌ Avoid** - Security, support, or compliance issues
+- ** Recommended** - Invest and adopt as standard
+- ** Acceptable** - Valid for specific contexts (e.g., legacy)
+- ** Caution** - Use with awareness of limitations
+- ** Avoid** - Security, support, or compliance issues
 
-## 📊 Current Recommendations (2025)
+## Current Recommendations (2025)
 
 ### UI Testing
-- ✅ Playwright + TypeScript
-- 🔵 Selenium + Java + Cucumber (large existing)
-- ⚠️ Playwright + Java (limited support)
+-  Playwright + TypeScript
+-  Selenium + Java + Cucumber (large existing)
+-  Playwright + Java (limited support)
 
 ### API Testing
-- ✅ Bruno (manual + automation)
-- ✅ Rest Assured (Java, best reporting)
-- ✅ Playwright API (UI + API combined)
-- ❌ Postman (security concerns)
+-  Bruno (manual + automation)
+-  Rest Assured (Java, best reporting)
+-  Playwright API (UI + API combined)
+-  Postman (security concerns)
 
 ### Performance
-- ✅ k6 (modern, scriptable)
-- ✅ JMeter (enterprise standard)
-- ✅ Gatling (Scala teams)
+-  k6 (modern, scriptable)
+-  JMeter (enterprise standard)
+-  Gatling (Scala teams)
 
 See individual tool pages for detailed comparisons and use cases.
 
-## 🔍 How to Evaluate New Tools
+## How to Evaluate New Tools
 
 1. **Submit Tool Evaluation Request**
    - Use [Tool Evaluation template](/.github/ISSUE_TEMPLATE/tool_evaluation.yml)
@@ -113,13 +113,13 @@ See individual tool pages for detailed comparisons and use cases.
 
 See [Tool Approval Process](/docs/governance/tool-approval-process.md) for details.
 
-## 📚 Related Resources
+## Related Resources
 
 - [Decision Trees](/docs/getting-started/decision-trees.md) - Context-based tool selection
 - [Templates](/templates/) - Implementation examples
 - [Standards](/docs/standards/) - Tool usage standards
 
-## 🔄 Maintenance
+## Maintenance
 
 Tool documentation is reviewed quarterly to ensure:
 - Version numbers are current

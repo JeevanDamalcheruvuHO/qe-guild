@@ -2,7 +2,7 @@
 
 This document outlines the strategic direction and planned initiatives for the QE Guild.
 
-## 🎯 Vision
+## Vision
 
 Build a world-class quality engineering practice that:
 - Delivers high-quality, secure software faster
@@ -10,9 +10,9 @@ Build a world-class quality engineering practice that:
 - Fosters a culture of quality ownership
 - Continuously improves through learning and innovation
 
-## 📅 Roadmap Timeline
+## Roadmap Timeline
 
-### ✅ Completed (2023-2024)
+### Completed (2023-2024)
 
 #### Q3 2023
 - [x] Established QE Guild
@@ -33,7 +33,7 @@ Build a world-class quality engineering practice that:
 - [x] Tool approval process documented
 - [x] Template guidelines established
 
-### 🚧 In Progress (Q4 2025)
+### In Progress (Q4 2025)
 
 #### Documentation
 - [ ] Complete all empty tooling documents
@@ -65,7 +65,7 @@ Build a world-class quality engineering practice that:
 - [ ] Workshop materials
 - [ ] Quick start guides
 
-### 📋 Planned (2026 Q1)
+### Planned (2026 Q1)
 
 #### Q1 2026
 - [ ] Complete all core templates
@@ -110,7 +110,7 @@ Build a world-class quality engineering practice that:
 - [ ] Self-service testing infrastructure
 - [ ] Integration with HO DevOps platform
 
-## 🎯 Key Focus Areas
+## Key Focus Areas
 
 ### 1. Documentation Excellence
 **Goal:** Complete, accurate, and helpful documentation for all tools and patterns
@@ -182,7 +182,7 @@ Build a world-class quality engineering practice that:
 - Faster feedback loops
 - Higher test automation coverage
 
-## 📊 Success Metrics
+## Success Metrics
 
 ### Adoption Metrics
 - % of projects using guild-recommended tools
@@ -208,7 +208,7 @@ Build a world-class quality engineering practice that:
 - Tool satisfaction scores
 - Training effectiveness
 
-## 🤝 How to Influence the Roadmap
+## How to Influence the Roadmap
 
 We welcome input on priorities and initiatives:
 
@@ -233,7 +233,7 @@ We welcome input on priorities and initiatives:
    - Create examples
    - Lead workshops
 
-## 📞 Contact
+## Contact
 
 **Roadmap Owners:** QE Guild Maintainers
 - Edmond Chhung
@@ -245,4 +245,4 @@ We welcome input on priorities and initiatives:
 **Last Updated:** October 2025  
 **Next Review:** January 2026
 
-*This roadmap is a living document and will be updated quarterly based on team needs, technology changes, and organizational priorities.*
+*This roadmap is a living document and will be updated quarterly based on team needs, technology changes, and organisational priorities.*

@@ -2,7 +2,7 @@
 
 Welcome to the QE Guild's decision tree hub. These interactive flowcharts help you choose the right testing tools and frameworks based on your project's specific context.
 
-## 📋 Quick Navigation
+## Quick Navigation
 
 ### By Testing Type
 - **[UI Testing Decision Tree](./ui-testing-decision.md)** - Choose between Playwright, Selenium, Cypress
@@ -14,7 +14,7 @@ Welcome to the QE Guild's decision tree hub. These interactive flowcharts help y
 ### Context-Aware Selection
 - **[Full Stack Decision Tree](./full-stack-decision.md)** - Comprehensive guidance based on your tech stack, team skills, and project constraints
 
-## 🎯 How to Use These Decision Trees
+## How to Use These Decision Trees
 
 1. **Start with your testing need** - Identify what you're testing (UI, API, performance, etc.)
 2. **Follow the flowchart** - Answer questions about your project context
@@ -34,28 +34,28 @@ Our recommendations consider:
 
 ## 🚦 Recommendation Levels
 
-In our decision trees, you'll see color-coded recommendations:
+In our decision trees, you'll see colour-coded recommendations:
 
-- 🟢 **Green (Recommended)** - Best choice for this scenario
-- 🔵 **Blue (Acceptable)** - Valid option, especially for legacy/enterprise contexts
-- 🟡 **Yellow (Caution)** - Usable but with limitations or support concerns
-- 🔴 **Red (Avoid)** - Not recommended due to security, support, or compatibility issues
+-  **Green (Recommended)** - Best choice for this scenario
+-  **Blue (Acceptable)** - Valid option, especially for legacy/enterprise contexts
+-  **Yellow (Caution)** - Usable but with limitations or support concerns
+-  **Red (Avoid)** - Not recommended due to security, support, or compatibility issues
 
-## 📚 Related Documentation
+## Related Documentation
 
 - [Tooling Comparisons](/docs/tooling/) - Detailed tool feature comparisons
 - [Standards](/docs/standards/) - QE Guild testing standards
 - [Templates](/templates/) - Ready-to-use framework templates
 - [Quick Start Guides](./quick-start-guides/) - Get started quickly with recommended tools
 
-## 🤝 Need Help?
+## Need Help?
 
 - **Not sure which decision tree to use?** Start with the [Full Stack Decision Tree](./full-stack-decision.md)
 - **Have questions about a recommendation?** Check the detailed [Tooling](/docs/tooling/) documentation
 - **Want to propose a new tool?** Submit a [Tool Evaluation Request](/.github/ISSUE_TEMPLATE/tool_evaluation.yml)
 - **Disagree with a recommendation?** Open a discussion or contact the maintainers
 
-## 🔄 Keeping Current
+## Keeping Current
 
 These decision trees are living documents:
 - **Last updated:** October 2025

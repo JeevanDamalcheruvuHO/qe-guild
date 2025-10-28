@@ -22,7 +22,7 @@ When choosing a Playwright language binding, two real-world factors matter most 
 
 ## Playwright Comparison — Python vs Java vs JavaScript/TypeScript
 
-| **Category** | 🐍 **Python** | ☕ **Java** | 💻 **JavaScript / TypeScript** |
+| **Category** |  **Python** |  **Java** |  **JavaScript / TypeScript** |
 |:--------------|:--------------|:-------------|:-------------------------------|
 | **Playwright maturity** |   Very mature, near-parity with core |   Stable |   Core SDK; original implementation |
 | **Ease of setup** |   `pip install playwright && playwright install` |   Requires Maven/Gradle + JDK |   `npm init playwright@latest` auto-configures project, setup with in mins  |
@@ -37,18 +37,18 @@ When choosing a Playwright language binding, two real-world factors matter most 
 | **CI/CD integration** |   Works with GitHub Actions, GitLab CI |   Great for Jenkins, Azure DevOps, Bamboo |   Native GitHub & Azure support strong|
 | **Test runner maturity** |   Pytest plugin stable |   Mature JUnit/TestNG support |   Official Playwright Test framework |
 | 🧑‍💼 **Microsoft official support** |   Actively maintained, small lag |   Maintained, slower parity |   Microsoft’s primary focus |
-| 🌐 **Community / library support** |   Smaller but active |   Mature Java test ecosystem |   Rich npm, GitHub, Stack Overflow presence |
+|  **Community / library support** |   Smaller but active |   Mature Java test ecosystem |   Rich npm, GitHub, Stack Overflow presence |
 | **Best suited for** | QA engineers, scripting, smaller suites | Enterprise QA automation teams | Dev-oriented web testing, CI/CD pipelines |
 
 
 ---
 
-### 🧑‍💻 Microsoft Support & Feature Cadence
-- 💻 **JavaScript / TypeScript:**  
+### Microsoft Support & Feature Cadence
+-  **JavaScript / TypeScript:**  
   Core implementation — every new Playwright feature (tracing, UI mode, component testing) lands here first.  
-- 🐍 **Python:**  
+-  **Python:**  
   Excellent parity, usually within **days or weeks** of JS releases.  
-- ☕ **Java:**  
+-  **Java:**  
   Stable but **slower**; smaller contributor base means updates arrive later.
 
 ### 🌍 Community & Ecosystem

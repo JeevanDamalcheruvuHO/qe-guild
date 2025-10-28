@@ -34,11 +34,11 @@ Restructure the repository with:
 - Governance: Transparent decision-making
 
 **Consequences:**
-- ✅ Better organization and navigation
-- ✅ Clear contribution process
-- ✅ Easier onboarding
-- ⚠️ Breaking change: Files moved to new locations
-- ⚠️ Requires updating existing bookmarks/links
+-  Better organisation and navigation
+-  Clear contribution process
+-  Easier onboarding
+-  Breaking change: Files moved to new locations
+-  Requires updating existing bookmarks/links
 
 ---
 
@@ -56,12 +56,12 @@ Postman was widely used but has security concerns:
 Approve Bruno as the recommended API testing tool for manual + automation scenarios.
 
 **Rationale:**
-- ✅ File-based collections (Git-friendly)
-- ✅ No cloud sync (security compliant)
-- ✅ Open source
-- ✅ Similar UI/UX to Postman (easy migration)
-- ✅ Scriptable for automation
-- ✅ Environment management
+-  File-based collections (Git-friendly)
+-  No cloud sync (security compliant)
+-  Open source
+-  Similar UI/UX to Postman (easy migration)
+-  Scriptable for automation
+-  Environment management
 
 **Consequences:**
 - Teams should migrate from Postman to Bruno
@@ -91,13 +91,13 @@ Teams were using various UI automation frameworks:
 Recommend Playwright + TypeScript as the primary UI automation framework for new projects.
 
 **Rationale:**
-- ✅ Microsoft officially supported
-- ✅ Best choice for PowerApps/Dynamics (Microsoft ecosystem)
-- ✅ Modern features (auto-wait, trace viewer, component testing)
-- ✅ Cross-browser support
-- ✅ Multi-language (TS, Python, Java, .NET)
-- ✅ TypeScript binding has best support
-- ✅ Active development and community
+-  Microsoft officially supported
+-  Best choice for PowerApps/Dynamics (Microsoft ecosystem)
+-  Modern features (auto-wait, trace viewer, component testing)
+-  Cross-browser support
+-  Multi-language (TS, Python, Java, .NET)
+-  TypeScript binding has best support
+-  Active development and community
 
 **Consequences:**
 - New UI automation projects should use Playwright + TypeScript
@@ -124,12 +124,12 @@ Java projects needed a robust API testing framework with excellent reporting.
 Recommend Rest Assured for Java-based API testing projects.
 
 **Rationale:**
-- ✅ Excellent request/response logging and tracking
-- ✅ Fluent Java DSL
-- ✅ Deep JUnit/TestNG integration
-- ✅ Mature and stable
-- ✅ Great for debugging with detailed reports
-- ✅ Strong community support
+-  Excellent request/response logging and tracking
+-  Fluent Java DSL
+-  Deep JUnit/TestNG integration
+-  Mature and stable
+-  Great for debugging with detailed reports
+-  Strong community support
 
 **Consequences:**
 - Java projects should use Rest Assured for API testing
@@ -153,12 +153,12 @@ Many teams have large, established Selenium + Java test suites (10k+ tests).
 Status: Hold - Acceptable to keep existing Selenium frameworks, but recommend Playwright for new projects.
 
 **Rationale:**
-- ✅ Massive existing investment
-- ✅ Team expertise in place
-- ✅ Stable and proven
-- ⚠️ High migration cost
-- ⚠️ Slower than modern alternatives
-- ⚠️ More complex maintenance
+-  Massive existing investment
+-  Team expertise in place
+-  Stable and proven
+-  High migration cost
+-  Slower than modern alternatives
+-  More complex maintenance
 
 **Consequences:**
 - Large existing frameworks can stay on Selenium

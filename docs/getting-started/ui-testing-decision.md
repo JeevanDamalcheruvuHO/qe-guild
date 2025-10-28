@@ -5,41 +5,41 @@ Choose the right UI automation framework based on your project context, team ski
 ## Decision Flowchart
 
 ```mermaid
-flowchart TD
+graph TD
     Start([UI Testing Needed]) --> Legacy{Existing large<br/>Java framework?}
     
-    Legacy -->|Yes| JavaSize{Framework size<br/>> 10k tests?}
+    Legacy -->|Yes| JavaSize{Framework size<br/>greater than 10k tests?}
     Legacy -->|No| NewProject[New/Small Project]
     
-    JavaSize -->|Yes| KeepSelenium[✅ Keep Selenium + Java]
+    JavaSize -->|Yes| KeepSelenium[Keep Selenium + Java]
     JavaSize -->|No| EvaluateMigration{Can migrate<br/>incrementally?}
     
-    EvaluateMigration -->|Yes| MigratePlaywright[🔄 Migrate to Playwright]
-    EvaluateMigration -->|No| KeepSelenium2[✅ Keep Selenium + Java]
+    EvaluateMigration -->|Yes| MigratePlaywright[Migrate to Playwright]
+    EvaluateMigration -->|No| KeepSelenium2[Keep Selenium + Java]
     
     NewProject --> WebType{Application type?}
     
-    WebType -->|Modern web app| Playwright[✅ Playwright + TypeScript]
-    WebType -->|PowerApps/Dynamics| Playwright2[✅ Playwright + TypeScript<br/>Microsoft supported]
+    WebType -->|Modern web app| Playwright[Playwright + TypeScript]
+    WebType -->|PowerApps/Dynamics| Playwright2[Playwright + TypeScript<br/>Microsoft supported]
     WebType -->|Legacy .NET| SpecFlow[Consider SpecFlow]
     
     KeepSelenium --> AddBDD{Need BDD?}
     KeepSelenium2 --> AddBDD
     
-    AddBDD -->|Yes| UseCucumber[✅ Selenium + Cucumber/Serenity]
-    AddBDD -->|No| UseJUnit[✅ Selenium + JUnit/TestNG]
+    AddBDD -->|Yes| UseCucumber[Selenium + Cucumber/Serenity]
+    AddBDD -->|No| UseJUnit[Selenium + JUnit/TestNG]
     
     Playwright --> CheckSkills{Team has<br/>TypeScript skills?}
     Playwright2 --> CheckSkills
     
-    CheckSkills -->|Yes| PlaywrightTS[✅ Playwright + TypeScript]
+    CheckSkills -->|Yes| PlaywrightTS[Playwright + TypeScript]
     CheckSkills -->|No| Training{Can upskill<br/>in 2 weeks?}
     
     Training -->|Yes| PlaywrightTS
     Training -->|No| FallbackOption{Python/Java<br/>experience?}
     
-    FallbackOption -->|Python| PlaywrightPy[⚠️ Playwright + Python<br/>slower updates]
-    FallbackOption -->|Java only| PlaywrightJava[⚠️ Playwright + Java<br/>limited support]
+    FallbackOption -->|Python| PlaywrightPy[Playwright + Python<br/>slower updates]
+    FallbackOption -->|Java only| PlaywrightJava[Playwright + Java<br/>limited support]
     
     MigratePlaywright --> PlaywrightTS
     
@@ -53,19 +53,19 @@ flowchart TD
     style PlaywrightJava fill:#FFD700
 ```
 
-## 🎯 Key Decision Points
+## Key Decision Points
 
 ### 1. Existing Java Framework Assessment
 
 **If you have a large existing Selenium + Java framework:**
 
-- ✅ **Keep it** if:
+- **Keep it** if:
   - 10,000+ tests in production
   - Team is 100% Java-focused
   - Migration would take 6+ months
   - ROI on migration is unclear
 
-- 🔄 **Consider migration** if:
+- **Consider migration** if:
   - Framework is small-medium (<5,000 tests)
   - Tests are slow and flaky
   - Team is open to learning TypeScript
@@ -74,47 +74,47 @@ flowchart TD
 ### 2. Application Type Matters
 
 **PowerApps / Dynamics 365:**
-- 🟢 **Playwright + TypeScript** is the clear winner
+- **Playwright + TypeScript** is the clear winner
 - Microsoft's official support and recommendation
 - Native integration and best documentation
 - Use template: `/templates/ui-automation/playwright/typescript/`
 
 **Modern Web Applications:**
-- 🟢 **Playwright + TypeScript** recommended
+- **Playwright + TypeScript** recommended
 - Fast execution, auto-wait, parallel testing
 - Rich debugging (trace viewer, UI mode)
 - Use template: `/templates/ui-automation/playwright/typescript/`
 
 **Legacy Applications:**
-- 🔵 **Selenium + Java** acceptable
+- **Selenium + Java** acceptable
 - Mature, stable, extensive community
 - Use template: `/templates/ui-automation/selenium/java-junit/`
 
 ### 3. Team Skills Assessment
 
 **TypeScript Skills Available:**
-- ✅ Go directly to Playwright + TypeScript
+- Go directly to Playwright + TypeScript
 - Fastest development cycle
 - Best tooling support
 
 **No TypeScript but Quick Learners:**
-- ✅ Invest 2 weeks in TypeScript training
+- Invest 2 weeks in TypeScript training
 - Long-term productivity gain
 - See: [TypeScript Quick Start Guide](./quick-start-guides/typescript-quick-start.md)
 
 **Python Team:**
-- ⚠️ Playwright + Python is acceptable
+- Playwright + Python is acceptable
 - Feature parity slightly behind TypeScript
 - Updates lag by days/weeks
 - Use template: `/templates/ui-automation/playwright/python/`
 
 **Java-Only Team:**
-- ⚠️ Playwright + Java has limited support
+- Playwright + Java has limited support
 - Smaller community, slower updates
 - Consider Selenium + Java instead
 - Use template: `/templates/ui-automation/selenium/java-junit/`
 
-## 📊 Framework Comparison
+## Framework Comparison
 
 | Framework | Best For | Pros | Cons | Template |
 |-----------|----------|------|------|----------|
@@ -125,7 +125,7 @@ flowchart TD
 | **Selenium + Cucumber** | BDD requirements | Business-readable tests | Complexity, slower | [Link](/templates/ui-automation/selenium/java-cucumber/) |
 | **Cypress** | Dev-focused JS projects | Developer experience | Limited browser support | Not recommended |
 
-## 🚀 Quick Start Paths
+## Quick Start Paths
 
 ### Path 1: Greenfield Project → Playwright + TypeScript
 
@@ -169,7 +169,7 @@ npx playwright test
 # See: docs/tooling/ui-automation/migration-guide.md
 ```
 
-## ⚠️ Common Pitfalls
+## Common Pitfalls
 
 1. **Don't choose based solely on language familiarity**
    - TypeScript is easy to learn (2 weeks)
@@ -187,19 +187,19 @@ npx playwright test
    - One UI framework per project
    - Exceptions: incremental migrations
 
-## 📚 Related Documentation
+## Related Documentation
 
 - [Playwright Language Comparison](/tools-strategy/PLAYWRIGHT-TS-PYTHON-JAVA.md)
 - [Selenium Guide](/docs/tooling/ui-automation/selenium-guide.md)
 - [UI Automation Standards](/docs/standards/ui-automation-standards.md)
 - [Page Object Pattern](/docs/design-patterns/page-object-model.md)
 
-## 🔄 Migration Guides
+## Migration Guides
 
 - [Selenium to Playwright Migration](/docs/tooling/ui-automation/migration-selenium-to-playwright.md)
 - [Cypress to Playwright Migration](/docs/tooling/ui-automation/migration-cypress-to-playwright.md)
 
-## 💬 Still Unsure?
+## Still Unsure?
 
 - Review the [Full Stack Decision Tree](./full-stack-decision.md) for broader context
 - Check [UI Automation Tooling Comparison](/docs/tooling/ui-automation/framework-comparison.md)

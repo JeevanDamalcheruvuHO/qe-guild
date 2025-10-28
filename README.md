@@ -9,20 +9,20 @@ The purpose of this repository is to:
 - Facilitate tool comparisons and provide firsthand information to support selecting the most appropriate tools for specific projects
 - Establish governance and decision-making processes for tool adoption
 
-## 🚀 Quick Start
+## Quick Start
 
 **New to QE Guild?** Start here:
-1. 📚 [Getting Started Guide](/docs/getting-started/new-qe-onboarding.md)
-2. 🎯 [Decision Trees](/docs/getting-started/decision-trees.md) - Find the right tool for your project
-3. 📋 [Standards](/docs/standards/) - Learn our testing principles
-4. 📦 [Templates](/templates/) - Use production-ready frameworks
+1.  [Getting Started Guide](/docs/getting-started/new-qe-onboarding.md)
+2.  [Decision Trees](/docs/getting-started/decision-trees.md) - Find the right tool for your project
+3.  [Standards](/docs/standards/) - Learn our testing principles
+4.  [Templates](/templates/) - Use production-ready frameworks
 
 **Need to choose a testing tool?**
 - [UI Testing Decision Tree](/docs/getting-started/ui-testing-decision.md)
 - [API Testing Decision Tree](/docs/getting-started/api-testing-decision.md)
 - [Full Stack Decision Guide](/docs/getting-started/full-stack-decision.md)
 
-## 📋 Repository Structure
+## Repository Structure
 
 ```
 qe-guild/
@@ -43,7 +43,7 @@ qe-guild/
 └── metrics/          # Adoption tracking and reviews
 ```
 
-## 📦 Templates
+## Templates
 
 Browse production-ready templates in the [`/templates`](/templates/) directory:
 
@@ -52,26 +52,26 @@ Browse production-ready templates in the [`/templates`](/templates/) directory:
 - **[Playwright + Python](/templates/ui-automation/playwright/python/)** - For Python-centric teams
 - **[Playwright + Java](/templates/ui-automation/playwright/java/)** - Limited support, consider carefully
 - **[Selenium + Java](/templates/ui-automation/selenium/java-junit/)** - For large existing Java frameworks
-## 🎯 QE Guild Recommendations (2025)
+## QE Guild Recommendations (2025)
 
 ### UI Testing
-- ✅ **Recommended:** Playwright + TypeScript (especially for PowerApps/Dynamics)
-- 🔵 **Acceptable:** Selenium + Java + Cucumber (for large existing frameworks)
-- ⚠️ **Caution:** Playwright + Java (limited support)
+-  **Recommended:** Playwright + TypeScript (especially for PowerApps/Dynamics)
+-  **Acceptable:** Selenium + Java + Cucumber (for large existing frameworks)
+-  **Caution:** Playwright + Java (limited support)
 
 ### API Testing
-- ✅ **Recommended:** 
+-  **Recommended:** 
   - Bruno (manual + automation, HO approved)
   - Rest Assured (Java backends, excellent reporting)
   - Playwright API (when combined with UI testing)
-- ❌ **Avoid:** Postman (account sync security concerns)
+-  **Avoid:** Postman (account sync security concerns)
 
 ### Performance Testing
-- ✅ **Recommended:** k6 (modern), JMeter (enterprise), Gatling (Scala teams)
+-  **Recommended:** k6 (modern), JMeter (enterprise), Gatling (Scala teams)
 
 See [Decision Trees](/docs/getting-started/decision-trees.md) for context-specific guidance.
 
-## 📚 Documentation
+## Documentation
 
 ### For New QE Members
 - [Getting Started Guide](/docs/getting-started/new-qe-onboarding.md)
@@ -96,7 +96,7 @@ See [Decision Trees](/docs/getting-started/decision-trees.md) for context-specif
 - [Decision Log](/docs/governance/decision-log.md)
 - [Roadmap](/docs/governance/roadmap.md)
 
-## 🤝 Contributing
+## Contributing
 
 We welcome and encourage contributions from QE team members!
 
@@ -115,7 +115,7 @@ Each template is maintained by designated owners (see [CODEOWNERS](/.github/CODE
 - Reviews are automated via GitHub CODEOWNERS
 - Community contributions are encouraged
 
-## 📞 Contact
+## Contact
 
 **QE Guild Maintainers:**
 - Edmond Chhung
@@ -123,7 +123,7 @@ Each template is maintained by designated owners (see [CODEOWNERS](/.github/CODE
 
 **Email:** qe-guild-leads@homeoffice.gov.uk
 
-## 📊 Metrics & Adoption
+## Metrics & Adoption
 
 Track our progress and see what others are using:
 - [Adoption Dashboard](/metrics/adoption-dashboard.md)
@@ -134,7 +134,7 @@ Track our progress and see what others are using:
 
 This repository is licensed under the [MIT License](LICENSE.md).
 
-## 🔄 Recent Updates
+## Recent Updates
 
 See [CHANGELOG.md](CHANGELOG.md) for recent changes and updates.
 

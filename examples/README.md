@@ -2,7 +2,7 @@
 
 Real-world examples and integration patterns for QE automation.
 
-## 📂 Categories
+## Categories
 
 ### [Integration Examples](/examples/integration-examples/)
 Complex scenarios combining multiple tools or frameworks:
@@ -27,7 +27,7 @@ Common testing patterns and scenarios:
 - WebSocket testing
 - GraphQL testing
 
-## 🎯 Purpose
+## Purpose
 
 These examples demonstrate:
 - **Best practices** in action
@@ -35,7 +35,7 @@ These examples demonstrate:
 - **Real problems** and their solutions
 - **Advanced patterns** for experienced QEs
 
-## 🚀 How to Use Examples
+## How to Use Examples
 
 1. **Browse** the relevant category
 2. **Read** the example's README
@@ -47,7 +47,7 @@ Examples are meant to be:
 - **Adaptable** - Copy and modify for your project
 - **Reference** - See how others solved similar problems
 
-## 📝 Contributing Examples
+## Contributing Examples
 
 Have a useful pattern to share?
 
@@ -58,7 +58,7 @@ Have a useful pattern to share?
 
 See [CONTRIBUTING.md](/CONTRIBUTING.md) for guidelines.
 
-## 📚 Related Resources
+## Related Resources
 
 - [Templates](/templates/) - Production-ready starting points
 - [Documentation](/docs/) - Standards and guidelines

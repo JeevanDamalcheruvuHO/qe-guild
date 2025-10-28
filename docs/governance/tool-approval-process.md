@@ -2,7 +2,7 @@
 
 This document outlines how new tools are evaluated and approved for use within the Home Office QE Guild.
 
-## 🎯 Purpose
+## Purpose
 
 The tool approval process ensures that:
 - Tools meet HO security and compliance requirements
@@ -14,17 +14,17 @@ The tool approval process ensures that:
 
 Tools in the QE Guild are categorized using a modified [Thoughtworks Technology Radar](https://www.thoughtworks.com/radar) approach:
 
-### ✅ **Invest** (Recommended)
+### **Invest** (Recommended)
 - **Description:** Approved for broad adoption across teams
 - **Support:** Full guild support, templates provided, training available
 - **Examples:** Playwright + TypeScript, Bruno, Rest Assured
 
-### 🔵 **Trial** (Pilot)
+### **Trial** (Pilot)
 - **Description:** Approved for pilot projects and evaluation
 - **Support:** Limited guild support, feedback collection in progress
 - **Examples:** New frameworks under evaluation
 
-### 🟡 **Assess** (Evaluate)
+### **Assess** (Evaluate)
 - **Description:** Interesting but needs more investigation
 - **Support:** No official support, POCs welcome
 - **Examples:** Emerging tools being researched
@@ -34,12 +34,12 @@ Tools in the QE Guild are categorized using a modified [Thoughtworks Technology 
 - **Support:** Maintenance only, no new adoption encouraged
 - **Examples:** Large existing Selenium frameworks
 
-### ❌ **Avoid** (Not Recommended)
+### **Avoid** (Not Recommended)
 - **Description:** Not approved due to security, support, or compliance issues
 - **Support:** None
 - **Examples:** Postman (cloud sync issues)
 
-## 📋 Evaluation Criteria
+## Evaluation Criteria
 
 New tools are evaluated against these criteria:
 
@@ -79,7 +79,7 @@ New tools are evaluated against these criteria:
 - [ ] Tool maturity and stability
 - [ ] Migration effort (if replacing existing tool)
 
-## 🔄 Approval Workflow
+## Approval Workflow
 
 ```mermaid
 flowchart TD
@@ -128,7 +128,7 @@ flowchart TD
     style Reject fill:#FF6B6B
 ```
 
-## 📝 Step-by-Step Process
+## Step-by-Step Process
 
 ### Step 1: Proposal Submission
 **Who:** Any QE team member  
@@ -152,8 +152,8 @@ flowchart TD
 - Quick technical review
 
 **Outcomes:**
-- ✅ Pass → Move to Assessment
-- ❌ Fail → Status: Avoid (with explanation)
+-  Pass → Move to Assessment
+-  Fail → Status: Avoid (with explanation)
 
 ### Step 3: Assessment Phase
 **Who:** QE Guild Maintainers  
@@ -240,7 +240,7 @@ flowchart TD
 - Announce to teams
 - Offer training/workshops
 
-## 📊 Decision Documentation
+## Decision Documentation
 
 All tool decisions are documented in:
 - [Decision Log](/docs/governance/decision-log.md) - Historical record
@@ -269,7 +269,7 @@ What are the implications?
 What happens next?
 ```
 
-## 🔄 Periodic Review
+## Periodic Review
 
 Tools are reviewed quarterly to ensure:
 - Status is still appropriate
@@ -284,7 +284,7 @@ Tools are reviewed quarterly to ensure:
 4. Are there better alternatives now?
 5. Should status change?
 
-## 👥 Roles and Responsibilities
+## Roles and Responsibilities
 
 ### Tool Proposer
 - Submit evaluation request
@@ -310,7 +310,7 @@ Tools are reviewed quarterly to ensure:
 - Report issues
 - Share learnings
 
-## 🚀 Fast-Track Approval
+## Fast-Track Approval
 
 Some tools may be fast-tracked if they meet these criteria:
 1. **Microsoft recommended** for PowerApps/Dynamics
@@ -323,7 +323,7 @@ Fast-track still requires:
 - Documentation
 - Decision log entry
 
-## ❌ Rejection and Appeals
+## Rejection and Appeals
 
 If a tool is rejected (Status: Avoid):
 1. **Rationale provided** in decision log
@@ -331,7 +331,7 @@ If a tool is rejected (Status: Avoid):
 3. **Appeal process:** Contact maintainers with new information
 4. **Reconsideration:** If circumstances change significantly
 
-## 📚 Examples
+## Examples
 
 ### Recent Approvals
 - **Playwright + TypeScript** (2023) - Status: Invest
@@ -349,7 +349,7 @@ If a tool is rejected (Status: Avoid):
   - Rationale: Cloud sync security concerns, not HO compliant
   - Alternative: Bruno
 
-## 📞 Questions?
+## Questions?
 
 - Submit [Tool Evaluation Request](/.github/ISSUE_TEMPLATE/tool_evaluation.yml)
 - Contact maintainers: Edmond Chhung, Guru Bangalore Venkatesh

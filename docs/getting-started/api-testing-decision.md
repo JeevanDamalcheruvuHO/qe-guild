@@ -12,10 +12,10 @@ flowchart TD
     Existing -->|Yes, .NET backend| DotNet[Consider RestSharp]
     Existing -->|No| NewProject[New Project]
     
-    JavaBackend -->|Yes| RestAssured[✅ Rest Assured<br/>Best reporting & Java DSL]
+    JavaBackend -->|Yes| RestAssured[ Rest Assured<br/>Best reporting & Java DSL]
     JavaBackend -->|No| Karate{Need API mocking<br/>+ performance?}
     
-    Karate -->|Yes| KarateDSL[✅ Karate DSL<br/>All-in-one solution]
+    Karate -->|Yes| KarateDSL[ Karate DSL<br/>All-in-one solution]
     Karate -->|No| RestAssured
     
     NewProject --> TeamLang{Primary team<br/>language?}
@@ -27,10 +27,10 @@ flowchart TD
     
     JSStack --> NeedUI{Also testing<br/>UI with Playwright?}
     
-    NeedUI -->|Yes| PlaywrightAPI[✅ Playwright API Testing<br/>Unified test suite]
+    NeedUI -->|Yes| PlaywrightAPI[ Playwright API Testing<br/>Unified test suite]
     NeedUI -->|No| ManualTesting{Manual testing<br/>required?}
     
-    ManualTesting -->|Yes| Bruno[✅ Bruno<br/>HO approved, no sync issues]
+    ManualTesting -->|Yes| Bruno[ Bruno<br/>HO approved, no sync issues]
     ManualTesting -->|No| Axios{Simple REST calls?}
     
     Axios -->|Yes| JestAxios[Jest + Axios/Fetch]
@@ -38,7 +38,7 @@ flowchart TD
     
     PythonStack --> DataHeavy{Data/ML<br/>heavy testing?}
     
-    DataHeavy -->|Yes| PytestRequests[✅ Pytest + Requests<br/>Rich data handling]
+    DataHeavy -->|Yes| PytestRequests[ Pytest + Requests<br/>Rich data handling]
     DataHeavy -->|No| Tavern{YAML-based<br/>tests preferred?}
     
     Tavern -->|Yes| TavernDSL[Tavern YAML]
@@ -48,7 +48,7 @@ flowchart TD
     
     TeamPref --> CollabNeeded{Non-tech stakeholders<br/>involved?}
     
-    CollabNeeded -->|Yes| BrunoCollab[✅ Bruno<br/>Team collaboration friendly]
+    CollabNeeded -->|Yes| BrunoCollab[ Bruno<br/>Team collaboration friendly]
     CollabNeeded -->|No| BestLang{Choose based on<br/>backend language}
     
     BestLang --> JavaStack
@@ -61,27 +61,27 @@ flowchart TD
     style BrunoCollab fill:#90EE90
     
     %% Add warning for Postman
-    NewProject -.->|❌ AVOID| Postman[Postman<br/>Account sync issues<br/>Not HO approved]
+    NewProject -.->| AVOID| Postman[Postman<br/>Account sync issues<br/>Not HO approved]
     style Postman fill:#FF6B6B,stroke:#CC0000,stroke-width:3px
 ```
 
-## 🎯 Key Decision Points
+## Key Decision Points
 
 ### 1. Java Backend Projects
 
 **Why Rest Assured is Recommended:**
 
-✅ **Excellent Request/Response Tracking**
+ **Excellent Request/Response Tracking**
 - Built-in request/response logging
 - Detailed reports show full API conversation
 - Easy debugging with complete visibility
 
-✅ **Java DSL Advantages**
+ **Java DSL Advantages**
 - Fluent, readable syntax
 - Type-safe API calls
 - Familiar patterns for Java developers
 
-✅ **Enterprise Integration**
+ **Enterprise Integration**
 - Deep integration with JUnit/TestNG
 - Maven/Gradle support
 - CI/CD friendly
@@ -106,7 +106,7 @@ given()
 
 **If you're already using Playwright for UI:**
 
-🟢 **Playwright API Testing** (Recommended)
+ **Playwright API Testing** (Recommended)
 - Unified test suite (UI + API)
 - Share fixtures and utilities
 - One reporting system
@@ -128,7 +128,7 @@ test('create user via API', async ({ request }) => {
 
 **If you need manual testing capabilities:**
 
-🟢 **Bruno** (HO Approved)
+ **Bruno** (HO Approved)
 - No cloud sync (security compliant)
 - Git-friendly (collections as files)
 - Team collaboration
@@ -141,7 +141,7 @@ test('create user via API', async ({ request }) => {
 
 **For Data-Heavy Testing:**
 
-🟢 **Pytest + Requests**
+ **Pytest + Requests**
 - Rich data manipulation with pandas
 - Excellent fixtures system
 - Parametrization support
@@ -166,12 +166,12 @@ def test_bulk_user_creation(test_data_df):
 
 **When to Use Karate:**
 
-✅ **All-in-One Solution Needed**
+ **All-in-One Solution Needed**
 - API testing + mocking + performance
 - No separate tools required
 - Gherkin-style syntax
 
-✅ **Polyglot Teams**
+ **Polyglot Teams**
 - Less programming required
 - DSL readable by non-programmers
 - Good for BDD scenarios
@@ -188,18 +188,18 @@ Scenario: Create a user
 
 **Use Template:** `/templates/api-automation/karate/`
 
-## 📊 Framework Comparison
+## Framework Comparison
 
 | Framework | Best For | Request/Response Tracking | Reporting | Team Collaboration | Template |
 |-----------|----------|---------------------------|-----------|-------------------|----------|
-| **Rest Assured** | Java backends | ⭐⭐⭐⭐⭐ Excellent | ⭐⭐⭐⭐ Very Good | ⭐⭐⭐ Good | [Link](/templates/api-automation/rest-assured/) |
-| **Bruno** | Manual + Automation | ⭐⭐⭐⭐ Very Good | ⭐⭐⭐ Good | ⭐⭐⭐⭐⭐ Excellent | [Link](/templates/api-automation/bruno/) |
-| **Playwright API** | UI + API combined | ⭐⭐⭐⭐ Very Good | ⭐⭐⭐⭐⭐ Excellent | ⭐⭐⭐ Good | [Link](/templates/ui-automation/playwright/typescript/) |
-| **Pytest + Requests** | Python/data testing | ⭐⭐⭐ Good | ⭐⭐⭐⭐ Very Good | ⭐⭐⭐ Good | [Link](/templates/api-automation/pytest-requests/) |
-| **Karate** | All-in-one solution | ⭐⭐⭐⭐ Very Good | ⭐⭐⭐⭐ Very Good | ⭐⭐⭐⭐ Very Good | [Link](/templates/api-automation/karate/) |
-| **Postman** | ❌ Not Recommended | ⭐⭐⭐⭐ Very Good | ⭐⭐⭐ Good | ⭐⭐⭐⭐ Very Good | ❌ Security issues |
+| **Rest Assured** | Java backends |  Excellent |  Very Good |  Good | [Link](/templates/api-automation/rest-assured/) |
+| **Bruno** | Manual + Automation |  Very Good |  Good |  Excellent | [Link](/templates/api-automation/bruno/) |
+| **Playwright API** | UI + API combined |  Very Good |  Excellent |  Good | [Link](/templates/ui-automation/playwright/typescript/) |
+| **Pytest + Requests** | Python/data testing |  Good |  Very Good |  Good | [Link](/templates/api-automation/pytest-requests/) |
+| **Karate** | All-in-one solution |  Very Good |  Very Good |  Very Good | [Link](/templates/api-automation/karate/) |
+| **Postman** |  Not Recommended |  Very Good |  Good |  Very Good |  Security issues |
 
-## 🚀 Quick Start Paths
+## Quick Start Paths
 
 ### Path 1: Java Project → Rest Assured
 
@@ -246,14 +246,14 @@ git commit -m "Add API test collection"
 npm run bruno
 ```
 
-## ⚠️ Why Not Postman?
+## Why Not Postman?
 
-❌ **Not HO Approved** due to:
+ **Not HO Approved** due to:
 - **Cloud sync security concerns** - Data leaves HO network
 - **Account management issues** - Requires external accounts
 - **Compliance risks** - Not suitable for sensitive projects
 
-🟢 **Use Bruno instead:**
+ **Use Bruno instead:**
 - File-based collections (Git-friendly)
 - No cloud sync
 - Similar UI/UX to Postman
@@ -296,14 +296,14 @@ console.log(response.status());
 // View in Playwright trace viewer
 ```
 
-## 📚 Related Documentation
+## Related Documentation
 
 - [API Automation Tooling Comparison](/docs/tooling/api-automation/tool-comparison.md)
 - [API Testing Standards](/docs/standards/api-testing-standards.md)
 - [Authentication Patterns](/docs/design-patterns/api-authentication.md)
 - [Contract Testing Guide](/examples/integration-examples/contract-testing/)
 
-## 💡 Advanced Scenarios
+## Advanced Scenarios
 
 ### Scenario 1: Microservices Testing
 - Use **contract testing** (Pact) + functional testing
@@ -317,7 +317,7 @@ console.log(response.status());
 - Use Playwright (native support)
 - See: `/examples/real-world-scenarios/websocket-testing/`
 
-## 💬 Still Unsure?
+## Still Unsure?
 
 - Review the [Full Stack Decision Tree](./full-stack-decision.md)
 - Check [API Tooling Comparison](/docs/tooling/api-automation/tool-comparison.md)

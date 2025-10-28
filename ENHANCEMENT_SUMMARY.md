@@ -1,14 +1,14 @@
 # QE Guild Repository Enhancement Summary
 
-## ✅ Completed Enhancements
+## Completed Enhancements
 
 This document summarizes all improvements made to the QE Guild repository on the `enhancements` branch.
 
-### 📅 Date: October 28, 2025
+### Date: October 28, 2025
 
 ---
 
-## 🎯 Overview
+## Overview
 
 The QE Guild repository has undergone a major restructure to improve:
 - **Organization** - Clear separation of concerns with logical hierarchy
@@ -19,7 +19,7 @@ The QE Guild repository has undergone a major restructure to improve:
 
 ---
 
-## 📦 What Was Added
+## What Was Added
 
 ### 1. GitHub Infrastructure
 
@@ -88,7 +88,7 @@ The QE Guild repository has undergone a major restructure to improve:
   - Evaluation process
   - Maintenance schedule
 
-#### Reorganized Existing Documents
+#### Reorganised Existing Documents
 - **Moved:** `tools-strategy/Ui-e2e-AutomationTooling.md` → `docs/tooling/ui-automation/framework-comparison.md`
 - **Moved:** `tools-strategy/API-automation-tooling.md` → `docs/tooling/api-automation/tool-comparison.md`
 - **Moved:** `tools-strategy/NFR-automatiom-tooling.md` → `docs/tooling/performance-testing/tool-comparison.md`
@@ -172,34 +172,34 @@ The QE Guild repository has undergone a major restructure to improve:
 
 ---
 
-## 🔧 What Was Fixed
+## What Was Fixed
 
 ### 1. CODE_OF_CONDUCT.md
-- ✅ Added contact method: `qe-guild-leads@homeoffice.gov.uk`
-- ✅ Removed placeholder `[INSERT CONTACT METHOD]`
-- ✅ Added maintainer names (Edmond Chhung, Guru Bangalore Venkatesh)
+-  Added contact method: `qe-guild-leads@homeoffice.gov.uk`
+-  Removed placeholder `[INSERT CONTACT METHOD]`
+-  Added maintainer names (Edmond Chhung, Guru Bangalore Venkatesh)
 
 ### 2. CONTRIBUTING.md
-- ✅ Fixed typo: "contributers" → "contributors"
-- ✅ Fixed capitalization: "we" → "We"
-- ✅ Added detailed contribution workflow
-- ✅ Added contribution guidelines
-- ✅ Added workflow for templates, documentation, and tool evaluations
+-  Fixed typo: "contributers" → "contributors"
+-  Fixed capitalization: "we" → "We"
+-  Added detailed contribution workflow
+-  Added contribution guidelines
+-  Added workflow for templates, documentation, and tool evaluations
 
 ### 3. README.md
-- ✅ Complete restructure with better organization
-- ✅ Added Quick Start section
-- ✅ Added repository structure diagram
-- ✅ Detailed template listings
-- ✅ Current recommendations (2025)
-- ✅ Documentation sections with links
-- ✅ Contributing section expanded
-- ✅ Added metrics and adoption section
-- ✅ Better navigation and discovery
+-  Complete restructure with better organisation
+-  Added Quick Start section
+-  Added repository structure diagram
+-  Detailed template listings
+-  Current recommendations (2025)
+-  Documentation sections with links
+-  Contributing section expanded
+-  Added metrics and adoption section
+-  Better navigation and discovery
 
 ---
 
-## 📊 Directory Structure Created
+## Directory Structure Created
 
 ```
 qe-guild/
@@ -272,7 +272,7 @@ qe-guild/
 
 ---
 
-## 📈 Statistics
+## Statistics
 
 ### Files Created
 - **25 new files** (Markdown documentation)
@@ -293,41 +293,41 @@ qe-guild/
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 ### 1. Decision Support
-- ✅ Interactive flowcharts for tool selection
-- ✅ Context-aware recommendations
-- ✅ Clear decision factors and rationale
-- ✅ Color-coded recommendation levels
+-  Interactive flowcharts for tool selection
+-  Context-aware recommendations
+-  Clear decision factors and rationale
+-  Color-coded recommendation levels
 
 ### 2. Transparent Governance
-- ✅ Documented tool approval process
-- ✅ Historical decision log (ADR-style)
-- ✅ Clear roadmap with timelines
-- ✅ Success metrics defined
+-  Documented tool approval process
+-  Historical decision log (ADR-style)
+-  Clear roadmap with timelines
+-  Success metrics defined
 
 ### 3. Contribution-Friendly
-- ✅ Clear contribution workflows
-- ✅ Issue templates for different scenarios
-- ✅ PR template with checklists
-- ✅ Automated review assignments via CODEOWNERS
+-  Clear contribution workflows
+-  Issue templates for different scenarios
+-  PR template with checklists
+-  Automated review assignments via CODEOWNERS
 
 ### 4. Professional Structure
-- ✅ Logical directory hierarchy
-- ✅ Consistent documentation style
-- ✅ Cross-referenced documents
-- ✅ Follows industry standards
+-  Logical directory hierarchy
+-  Consistent documentation style
+-  Cross-referenced documents
+-  Follows industry standards
 
 ### 5. Scalable Design
-- ✅ Easy to add new tools/templates
-- ✅ Placeholder structure for future content
-- ✅ Clear ownership and maintenance model
-- ✅ Quarterly review process
+-  Easy to add new tools/templates
+-  Placeholder structure for future content
+-  Clear ownership and maintenance model
+-  Quarterly review process
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 ### Immediate (Ready to Merge)
 1. Review the enhancements branch
@@ -349,35 +349,35 @@ qe-guild/
 
 ---
 
-## 💡 Benefits
+## Benefits
 
 ### For New QE Members
-- ✅ Clear onboarding path
-- ✅ Decision trees guide tool selection
-- ✅ Quick start guides (coming soon)
-- ✅ Comprehensive documentation
+-  Clear onboarding path
+-  Decision trees guide tool selection
+-  Quick start guides (coming soon)
+-  Comprehensive documentation
 
 ### For Existing QE Teams
-- ✅ Transparent tool recommendations
-- ✅ Access to best practice templates
-- ✅ Clear contribution process
-- ✅ Governance visibility
+-  Transparent tool recommendations
+-  Access to best practice templates
+-  Clear contribution process
+-  Governance visibility
 
 ### For QE Guild Maintainers
-- ✅ Structured decision-making
-- ✅ Automated PR reviews
-- ✅ Clear ownership model
-- ✅ Scalable architecture
+-  Structured decision-making
+-  Automated PR reviews
+-  Clear ownership model
+-  Scalable architecture
 
 ### For the Organization
-- ✅ Consistent quality practices
-- ✅ Reduced tool sprawl
-- ✅ Knowledge sharing platform
-- ✅ Measurable success metrics
+-  Consistent quality practices
+-  Reduced tool sprawl
+-  Knowledge sharing platform
+-  Measurable success metrics
 
 ---
 
-## 🔍 Review Checklist
+## Review Checklist
 
 Before merging to main, verify:
 
@@ -394,7 +394,7 @@ Before merging to main, verify:
 
 ---
 
-## 📞 Feedback and Questions
+## Feedback and Questions
 
 For questions about these enhancements:
 - **Maintainers:** Edmond Chhung, Guru Bangalore Venkatesh
@@ -403,7 +403,7 @@ For questions about these enhancements:
 
 ---
 
-## 📚 Key Documents to Review
+## Key Documents to Review
 
 Must-read documents after merge:
 1. [README.md](/README.md) - Start here
@@ -422,8 +422,8 @@ Must-read documents after merge:
 
 ---
 
-## 🎉 Thank You!
+## Thank You!
 
 This restructure represents a significant investment in the QE Guild's future. The improvements will help teams make better tool choices, contribute more easily, and build on a solid foundation of best practices.
 
-Let's build world-class quality engineering together! 🚀
+Let's build world-class quality engineering together! 

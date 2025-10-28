@@ -4,14 +4,14 @@
 ## Type of Change
 <!-- Mark the relevant option with an 'x' -->
 
-- [ ] 📝 Documentation update
-- [ ] 🎨 New template
-- [ ] 🔧 Template improvement
+- [ ]  Documentation update
+- [ ]  New template
+- [ ]  Template improvement
 - [ ] 🛠️ Tooling recommendation update
-- [ ] 📊 Standards/governance update
-- [ ] 🐛 Bug fix
-- [ ] ✨ New feature/utility
-- [ ] 🧪 Example or training material
+- [ ]  Standards/governance update
+- [ ]  Bug fix
+- [ ]  New feature/utility
+- [ ]  Example or training material
 
 ## Changes Made
 <!-- List the specific changes made in this PR -->

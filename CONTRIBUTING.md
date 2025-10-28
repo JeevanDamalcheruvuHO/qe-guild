@@ -20,7 +20,7 @@ This repository uses a `CODEOWNERS` file to define **who is responsible for revi
 3. Commit the change and push to a branch.
 4. Open a PR to have the change reviewed by existing owners.
 
-## 📋 Contribution Workflow
+## Contribution Workflow
 
 ### For Template Contributors
 
@@ -68,7 +68,7 @@ This repository uses a `CODEOWNERS` file to define **who is responsible for revi
    - Discussion and feedback period
    - Decision recorded in /docs/governance/decision-log.md
 
-## 🎯 Contribution Guidelines
+## Contribution Guidelines
 
 - **Quality over quantity** - Well-tested, documented contributions
 - **Follow standards** - Use existing templates as examples

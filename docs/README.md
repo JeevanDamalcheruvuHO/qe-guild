@@ -1,8 +1,8 @@
 # Documentation Hub
 
-Welcome to the QE Guild documentation center. This directory contains all guides, standards, patterns, and tooling information to support quality engineering across the Home Office.
+Welcome to the QE Guild documentation centre. This directory contains all guides, standards, patterns, and tooling information to support quality engineering across the Home Office.
 
-## 📂 Directory Structure
+## Directory Structure
 
 ### [Getting Started](/docs/getting-started/)
 New to QE Guild? Start here!
@@ -22,7 +22,7 @@ Proven patterns for test automation
 - Page Object Model
 - Screenplay Pattern
 - Builder Pattern
-- Best practices for test organization
+- Best practices for test organisation
 
 ### [Tooling](/docs/tooling/)
 Comprehensive tool comparisons and guides
@@ -47,7 +47,7 @@ Learning resources and career development
 - Recommended books and courses
 - Community resources
 
-## 🔍 How to Find What You Need
+## How to Find What You Need
 
 ### I need to choose a testing tool
 → [Decision Trees](/docs/getting-started/decision-trees.md)
@@ -67,7 +67,7 @@ Learning resources and career development
 ### I want to propose a new tool
 → [Tool Approval Process](/docs/governance/tool-approval-process.md)
 
-## 📝 Contributing to Documentation
+## Contributing to Documentation
 
 Documentation contributions are highly valued! See [CONTRIBUTING.md](/CONTRIBUTING.md) for guidelines.
 
@@ -78,7 +78,7 @@ Documentation contributions are highly valued! See [CONTRIBUTING.md](/CONTRIBUTI
 - Cross-reference related documents
 - Keep documentation up to date
 
-## 🔄 Documentation Review Cycle
+## Documentation Review Cycle
 
 - **Review Frequency:** Quarterly
 - **Last Review:** October 2025

@@ -2,7 +2,7 @@
 
 This document defines the standards for creating and maintaining templates in the QE Guild repository.
 
-## 🎯 What Makes a Good Template?
+## What Makes a Good Template?
 
 A quality template should be:
 - **Production-ready** - Works out of the box
@@ -11,7 +11,7 @@ A quality template should be:
 - **Maintainable** - Easy to understand and extend
 - **Tested** - Includes working example tests
 
-## 📂 Template Structure
+## Template Structure
 
 Every template must follow this structure:
 
@@ -39,7 +39,7 @@ template-name/
 └── TROUBLESHOOTING.md    # Common issues and solutions
 ```
 
-## 📝 README Requirements
+## README Requirements
 
 Every template README must include:
 
@@ -113,7 +113,7 @@ How to contribute improvements to the template
 ### 12. License
 Link to repository license
 
-## 🧪 Example Tests
+## Example Tests
 
 Templates must include:
 
@@ -140,7 +140,7 @@ Examples should be:
 - Allow override via environment variables
 - Include comments in config files
 
-## 🔄 CI/CD Integration
+## CI/CD Integration
 
 Every template should include:
 
@@ -155,7 +155,7 @@ Every template should include:
    - Jenkins
    - GitLab CI
 
-## 🎨 Code Quality
+## Code Quality
 
 Templates must demonstrate:
 
@@ -179,16 +179,16 @@ Templates must demonstrate:
 - Meaningful error messages
 - Proper logging
 
-## 🔒 Security Best Practices
+## Security Best Practices
 
 Templates must:
-- ❌ Never include credentials
-- ✅ Use environment variables for sensitive data
-- ✅ Include `.gitignore` to prevent credential commits
-- ✅ Demonstrate secure practices
-- ✅ Follow HO security requirements
+-  Never include credentials
+-  Use environment variables for sensitive data
+-  Include `.gitignore` to prevent credential commits
+-  Demonstrate secure practices
+-  Follow HO security requirements
 
-## 📦 Dependencies
+## Dependencies
 
 ### Version Pinning
 - Pin major versions in package.json/requirements.txt/pom.xml
@@ -201,7 +201,7 @@ Templates must:
 - Justify each dependency
 - Keep dependencies updated
 
-## 🧪 Testing the Template
+## Testing the Template
 
 Before submission, verify:
 
@@ -214,7 +214,7 @@ Before submission, verify:
 - [ ] Code follows best practices
 - [ ] Troubleshooting guide is helpful
 
-## 🏷️ Versioning
+## Versioning
 
 Templates should follow semantic versioning:
 - **Major** - Breaking changes
@@ -223,7 +223,7 @@ Templates should follow semantic versioning:
 
 Document changes in template's CHANGELOG.md
 
-## 👥 Ownership and Maintenance
+## Ownership and Maintenance
 
 ### Template Owners
 - Listed in [CODEOWNERS](/.github/CODEOWNERS)
@@ -239,7 +239,7 @@ Document changes in template's CHANGELOG.md
 - **Review PRs** - Within 1 week
 - **Breaking changes** - Communicate clearly with migration guide
 
-## 📋 Submission Checklist
+## Submission Checklist
 
 Before submitting a new template:
 
@@ -256,17 +256,17 @@ Before submitting a new template:
 - [ ] Tested from fresh clone
 - [ ] [Template Submission Issue](/.github/ISSUE_TEMPLATE/template_submission.yml) created
 
-## 🚫 Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 1. **Too Generic** - Templates should be opinionated and demonstrate best practices
-2. **Too Specific** - Avoid organization-specific details that don't generalize
+2. **Too Specific** - Avoid organisation-specific details that don't generalize
 3. **Incomplete Documentation** - Every step must be documented
 4. **Untested Instructions** - Verify setup works from scratch
 5. **Outdated Dependencies** - Keep dependencies current
 6. **Missing Error Handling** - Show how to handle failures
 7. **No Real Examples** - Include practical, real-world scenarios
 
-## 📚 Template Categories
+## Template Categories
 
 ### UI Automation
 - Must include page object examples
@@ -288,7 +288,7 @@ Before submitting a new template:
 - Demonstrate app interaction patterns
 - Show how to handle device capabilities
 
-## 🔄 Template Lifecycle
+## Template Lifecycle
 
 1. **Submission** - via Template Submission Issue
 2. **Review** - by CODEOWNERS
@@ -297,7 +297,7 @@ Before submitting a new template:
 5. **Deprecated** - marked for replacement
 6. **Archived** - moved to archive directory
 
-## 💡 Tips for Success
+## Tips for Success
 
 - **Start with the README** - Clear documentation drives good structure
 - **Keep it simple** - Focus on one framework/pattern
@@ -306,7 +306,7 @@ Before submitting a new template:
 - **Ask for feedback** - Before official submission
 - **Iterate** - Templates improve with use and feedback
 
-## 📞 Questions?
+## Questions?
 
 - Review existing templates in [`/templates`](/templates/)
 - Check [Template Submission guide](/.github/ISSUE_TEMPLATE/template_submission.yml)
